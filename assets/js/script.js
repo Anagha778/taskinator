@@ -27,7 +27,22 @@ var createTaskEl = function(taskDataObj) {
  listItemEl.appendChild(taskActionsEl);
 
  // add entire list item to list
- tasksToDoEl.appendChild(listItemEl);
+ switch (taskDataObj.status) {
+    case "to do":
+      taskActionsEl.querySelector("select[name='status-change']").selectedIndex = 0;
+      tasksToDoEl.append(listItemEl);
+      break;
+    case "in progress":
+      taskActionsEl.querySelector("select[name='status-change']").selectedIndex = 1;
+      tasksInProgressEl.append(listItemEl);
+      break;
+    case "completed":
+      taskActionsEl.querySelector("select[name='status-change']").selectedIndex = 2;
+      tasksCompletedEl.append(listItemEl);
+      break;
+    default:
+      console.log("Something went wrong!");
+  }
  taskDataObj.id = taskIdCounter;
  tasks.push(taskDataObj);
 
@@ -273,7 +288,23 @@ var createTaskActions = function(taskId) {
 
     localStorage.setItem("tasks", JSON.stringify(tasks));
 
-}
+    }
+
+    var loadTasks = function(){
+       var gettasks = localStorage.getItem("tasks");
+
+       if (gettasks===null){
+
+           return false;
+       }
+       gettasks = JSON.parse(gettasks);
+        console.log(gettasks);
+        for (var i = 0; i < gettasks.length; i++) {
+            // pass each task object into the `createTaskEl()` function
+            createTaskEl(gettasks[i]);
+          }
+
+    }
 
   formEl.addEventListener("submit", TaskformHandler);
   pageContentEl.addEventListener("click", taskButtonHandler);
@@ -282,3 +313,4 @@ var createTaskActions = function(taskId) {
   pageContentEl.addEventListener("dragover", dropZoneDragHandler);
   pageContentEl.addEventListener("drop", dropTaskHandler);
   pageContentEl.addEventListener("dragleave", dragLeaveHandler);
+  loadTasks();
