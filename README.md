@@ -2,7 +2,7 @@
 ## Description
 This project generates readme file using command line application
 ## Table of Contents:
-* [Installation](#pdependency)
+* [Installation](#Installation)
 * [Usage](#pusage)
 * [License](#plicense)
 * [Contributor](#pcontributor)
