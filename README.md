@@ -1,5 +1,5 @@
 # Readme Generator
-![Github License] (https://shields.io/badge/license-Apache-blue.svg)
+![Github License](https://shields.io/badge/license-Apache-blue.svg)
 ## Description
 This project generates readme file using command line
 ## Table of Contents:
