@@ -1,6 +1,6 @@
-# readme generatoe
+# Readme Generator
 ## Description
-eff
+This project generates readme file using command line application
 ## Table of Contents:
 * [Installation](#pdependency)
 * [Usage](#pusage)
@@ -8,3 +8,16 @@ eff
 * [Contributor](#pcontributor)
 * [Test](#ptest)
 * [Questions](#username)
+## Installation:
+npm i inquirer
+## Usage:
+anagha
+## License:
+MIT license
+## Contributors:
+jdk
+## Tests:
+fwf
+## Questions:
+Link to my GitHub profile : https://github.com/anagha778 
+For additional questions reach me at : anagha778@gmail.com
