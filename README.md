@@ -1,6 +1,6 @@
-# klj ![Github license](https://shields.io/badge/license-GNU-GPLv3-blue.svg)
+# Readme generator ![Github license](https://shields.io/badge/license-GPLv3-blue.svg)
 ## Description
-kjlk
+project description
 ## Table of Contents:
 * [Installation](#Installation)
 * [Usage](#Usage)
@@ -9,16 +9,16 @@ kjlk
 * [Tests](#Tests)
 * [Questions](#Questions)
 ## Installation:
-Install dependency using command : lk;l
+Install dependency using command : npm i inquirer
 ## Usage:
-klj
+usage
 ## License:
-* This application is covered under license GNU-GPLv3
-* Here is the link detailing license terms and conditions 
+* This application is covered under license GPLv3
+* Here is the link detailing license terms and conditions https://choosealicense.com/licenses/gpl-3.0/
 ## Contributors:
-kl
+conduct
 ## Tests:
-o;k
+test1
 ## Questions:
-* Link to my GitHub profile : https://github.com/jlk  
-* For additional questions reach me at : kljkl
+* Link to my GitHub profile : https://github.com/anagha778  
+* For additional questions reach me at : anagha778@gmail.com
