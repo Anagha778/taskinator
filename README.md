@@ -1,6 +1,5 @@
-# Readme generator ![Github license](https://shields.io/badge/license-GPLv3-blue.svg)
 ## Description
-project description
+This project will generate readme file using command line application
 ## Table of Contents:
 * [Installation](#Installation)
 * [Usage](#Usage)
@@ -9,16 +8,16 @@ project description
 * [Tests](#Tests)
 * [Questions](#Questions)
 ## Installation:
-Install dependency using command : npm i inquirer
+Install dependency using command : 
 ## Usage:
-usage
+dfgsf
 ## License:
-* This application is covered under license GPLv3
-* Here is the link detailing license terms and conditions https://choosealicense.com/licenses/gpl-3.0/
+* This application is covered under license MIT
+* Here is the link detailing license terms and conditions https://choosealicense.com/licenses/mit/
 ## Contributors:
-conduct
+fdggsdf
 ## Tests:
-test1
+sdfas
 ## Questions:
 * Link to my GitHub profile : https://github.com/anagha778  
 * For additional questions reach me at : anagha778@gmail.com
