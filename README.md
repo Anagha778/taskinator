@@ -1,3 +1,4 @@
+# Readme Generator ![Github license](https://shields.io/badge/license-MIT-blue.svg)
 ## Description
 This project will generate readme file using command line application
 ## Table of Contents:
