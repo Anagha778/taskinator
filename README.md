@@ -1,6 +1,6 @@
-# Readme generator using node js  ![Github license](https://shields.io/badge/license-Apache-blue.svg)
+# Readme generator ![Github license](https://shields.io/badge/license-GNU GPLv3-blue.svg)
 ## Description
-This application generates readme me using commnd line
+description
 ## Table of Contents:
 * [Installation](#Installation)
 * [Usage](#Usage)
@@ -11,14 +11,14 @@ This application generates readme me using commnd line
 ## Installation:
 Install dependency using command : npm i inquirer
 ## Usage:
-adasdjakdSJadasasd
+usage nfo
 ## License:
-This application is covered under license Apache
-Here is the link detailing license terms and conditions https://choosealicense.com/licenses/apache-2.0/
+* This application is covered under license GNU GPLv3
+  * Here is the link detailing license terms and conditions https://choosealicense.com/licenses/gpl-3.0/
 ## Contributors:
-sfadas
+code of conduct
 ## Tests:
-
+test 1, test2, test3
 ## Questions:
 * Link to my GitHub profile : https://github.com/anagha778  
 * For additional questions reach me at : anagha778@gmail.com
